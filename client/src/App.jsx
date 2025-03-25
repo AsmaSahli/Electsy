@@ -9,6 +9,7 @@ import AuthentificationRoute from "./components/AuthentificationRoute";
 import SignUp from "./Pages/SignUp";
 import ForgotPassword from "./components/ForgotPassword ";
 import ResetPassword from "./components/ResetPassword";
+import BecomeSeller from "./Pages/BecomeSeller";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/signup" element={<SignUp/>} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
           <Route path="/reset-password/:token" element={<ResetPassword />} />
+          <Route path="/become-seller" element={<BecomeSeller/>} />
 
         </Route>
 
